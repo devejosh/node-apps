@@ -4,11 +4,16 @@
   "description": "working with the weather-api and express. ",
   "main": "app.js",
   "scripts": {
+    "build" : "npx tailwindcss -i ./resources/static/css/base.css -o ./resources/static/css/main.css",
+    "watch" : "npx tailwindcss -i ./resources/static/css/base.css -o ./resources/static/css/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Devendra Joshi",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
   }
 }
