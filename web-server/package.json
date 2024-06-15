@@ -1,0 +1,14 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "working with the weather-api and express. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devendra Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
